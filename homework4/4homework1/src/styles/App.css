@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #68a66a;
+  }
+  
+  .App {
+    padding: 20px;
+    text-align: center;
+  }
+  .App-card {
+    border: 2px solid greenyellow;
+    background: rgb(83, 186, 83);
+    border-radius: 20px;
+  }
