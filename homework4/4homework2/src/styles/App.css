@@ -1,0 +1,38 @@
+.quiz-container {
+    max-width: 230px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #98dbf0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+  
+  p {
+    font-size: 28px;
+    font-weight: bold;
+  }  
+  .answer {
+    display: flex;
+    margin-top: 20px;
+  }
+  .answer input {
+    flex-grow: 1;
+    padding: 2px 5px;
+    font-size: 12px;
+    border: 1px solid #7e7d7d;
+  }
+  
+  .answer button {
+    padding: 2px 5px;
+    font-size: 12px;
+    background-color: #e5f1f0;
+    color: black;
+    border: 1px solid #7e7d7d;
+    cursor: pointer;
+  }
+ 
+  button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
