@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+  font-family: sans-serif;
+  
+}
+
+.languageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #83e0ec, #f010dd);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.languageContainer h1 {
+  margin: 0;
+  font-size: 34px;
+  text-align: center;
+  color: #068080;
+}
+
+.languageContainer button {
+  width: 170px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: #901ddd;
+  color: black;
+
+}
+
+.languageContainer button:hover {
+  background-color: #470981;
+  color: white;
+}

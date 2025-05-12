@@ -1,0 +1,13 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background: rgba(27, 22, 22, 0.897);
+}
+
+.App {
+    max-width: 1707px;
+    width: 100%;
+    height: 796px;
+    background: #0C0417;
+    margin: auto;
+    margin-top: 50px;
+}
