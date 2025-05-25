@@ -18,7 +18,7 @@ const onSubmit = (data) => {
 };
 
   const firstInputValue = watch('firstName');
-  const isFirstValid = firstInputValue && firstInputValue.length >= 3;
+  const isFirstValid = firstInputValue && firstInputValue.length >= 4;
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
@@ -26,12 +26,12 @@ const onSubmit = (data) => {
         <label htmlFor="firstName">Имя:</label>
         <input
           id="firstName"
-          {...register('firstName', { required: true, minLength: 3 })}
+          {...register('firstName', { required: true, minLength: 4 })}
           className={styles.input}
         />
         {errors.firstName && (
           <p className={styles.error}>
-            Имя обязательно и должно быть не менее 3 символов.
+            Имя обязательно и должно быть не менее 4 символов.
           </p>
         )}
       </div>
