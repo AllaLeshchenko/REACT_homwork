@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.value-display p {
+  font-size: 18px;
+  margin: 5px 0;
+}
