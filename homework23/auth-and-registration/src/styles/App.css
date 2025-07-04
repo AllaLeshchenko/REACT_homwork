@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  background-color: #6ab4f8; /* светло-голубой фон */
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.container a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+/* App.css — стили для UserProfile */
+
+.user-profile {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.user-profile h1 {
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  background-color: #007bff; /* синий фон */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #0056b3; /* тёмно-синий при наведении */
+}
+h1 {
+    text-align: center;
+}
+.form-container {
+  max-width: 400px;     /* можно задать ширину */
+  margin: 0 auto;       /* центрируем форму горизонтально */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-container input {
+  display: block;       /* каждый input - на отдельной строке */
+  width: 100%;          /* чтобы растягивались по ширине */
+  margin-bottom: 15px;  /* отступ между полями */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  display: block;       /* блок, чтобы можно было центрировать */
+  margin: 0 auto;       /* центрируем кнопку */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #1565c0;
+}
